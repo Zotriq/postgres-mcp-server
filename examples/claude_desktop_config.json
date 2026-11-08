@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "pg-mcp",
+      "env": {
+        "DATABASE_URL": "postgresql://readonly_user:password@localhost:5432/shop",
+        "LLM_API_KEY": "sk-...",
+        "LLM_MODEL": "gpt-4o-mini"
+      }
+    }
+  }
+}
